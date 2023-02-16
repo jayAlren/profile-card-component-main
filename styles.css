@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=EB+Garamond:wght@400;500;700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Outfit:wght@300;400;600;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+body {
+	font-family: Kumbh Sans, sans-serif;
+	font-weight: 400;
+	display: flex;
+	flex-direction: column;
+	font-size: 1em;
+	background-color: hsl(185, 75%, 39%);
+	color: black;
+	text-align: center;
+}
+
+main {	
+	flex: 1;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 95vh;
+	
+}
+
+.contain {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	border: none;
+	border-radius: 20px;
+	overflow: hidden;
+	height: 370px;
+	width: 350px;
+	background-color: white;
+}
+
+.round-background:nth-of-type(1) {
+	position: absolute;
+	left: -23%;
+	top: -85%;
+	
+}
+
+.round-background:nth-of-type(2) {
+	position: absolute;
+	bottom: -95%;
+	right: -20%;
+}
+
+.contain-images {
+	margin: 0 0 4em 0;
+	overflow: hidden;
+}
+
+.image-avatar {
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	border: 5px solid white;
+	top: 25%;
+	left: 35%;
+	border-radius: 50%;
+ 	align-self: center;
+}
+
+.contain-containInfo {
+	line-height: 1.5;
+}
+
+.contain-containInfo-name {
+	padding: 0 5px 0 0;
+	font-weight: 700;
+}
+
+.contain-contactInfo-age {
+	color: hsl(227, 10%, 46%);
+}
+
+.contain-containInfo-address {
+	font-weight: 400;
+	font-size: .875em;
+	color: hsl(227, 10%, 46%);
+}
+
+hr {
+	margin: 20px 0 0 0;
+}
+
+.contain-socmedInfo {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	
+}
+
+.contain-socmedInfo-items {
+	flex: 1;
+}
+
+footer {
+	border-top: 1px dashed hsl(227, 10%, 46%);
+	padding: 7px;
+	width: 100%;
+	text-align: center;
+	flex: 1;
+	font-size: 11px;
+	text-align: center;
+	color: white;
+}
+
+footer a {
+	cursor: pointer;
+	color: white;
+}
+
+footer a:hover {
+	color: hsl(228, 45%, 44%);
+}
